@@ -23,7 +23,7 @@ int main(){
 				break;
 			}
 		}
-		else for(int i = 2; i < LISTSIZE; i += 1){
+		for(int i = 2; i < LISTSIZE; i += 1){
 			if(isPrime[i] == 0 && targetNumber % i == 0){
 				targetNumber = targetNumber/i;
 				printf("%d\n", i);
