@@ -10,7 +10,7 @@ using namespace std;
 int main(){
 
 	ofstream file;
-	file.open("primesSmallerThan5e+7.txt");
+	file.open("primesSmallerThan1e+8.txt");
 
 	int *isPrime = (int *) malloc(sizeof(int)*LISTSIZE);
 	isPrime[0] = 1; //0 is not a prime number
